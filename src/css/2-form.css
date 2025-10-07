@@ -1,0 +1,52 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  padding: 24px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-form label input,
+.feedback-form label textarea {
+  padding: 8px 16px;
+  border: 1px #808080 solid;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.feedback-form label input:hover {
+  border-color: #212121;
+}
+
+.feedback-form button {
+  width: 86px;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+.btn-ok,
+.btn-delete {
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-ok {
+  background-color: #4e75ff;
+}
+
+.btn-ok:hover {
+  background-color: #6c8cff;
+}
